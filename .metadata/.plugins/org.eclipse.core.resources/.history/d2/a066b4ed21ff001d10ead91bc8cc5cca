@@ -1,0 +1,19 @@
+
+public class App {
+	public static void main (String [] args) {
+//		New line (\n)
+		System.out.println("Hello \nWorld");
+		
+//		Ignore quotation marks (\")
+		System.out.println("Hello \"World\"");
+		
+//		Methods
+		String phrase = "Hello World";
+		System.out.println(phrase.toUpperCase());
+		System.out.println(phrase.charAt(6));
+		System.out.println(phrase.indexOf("llo"));
+		System.out.println("Length of phrase: " + phrase.length());
+		System.out.println(phrase.contains("World"));
+		System.out.println(phrase.replace("World", "Everyone"));
+	}
+}
