@@ -23,5 +23,7 @@ public class App {
         for (int element: myArrayList) {
             System.out.println(element);
         }
+        
+        myArrayList.size()
     }
 }
